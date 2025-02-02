@@ -1,11 +1,14 @@
 .site-header {
   background-color: #fff8f2;
+  position: fixed;
+  width: 100%;
+  z-index: 3;
 }
 .site-header__inner {
   align-items: center;
   display: flex;
   justify-content: space-between;
-  padding: 18px 0;
+  padding: 40px 0;
 }
 .site-header__nav {
   display: flex;
