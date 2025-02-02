@@ -315,6 +315,7 @@ template {
 }
 
 body {
+  font-family: "Poppins", sans-serif;
   overflow-x: hidden;
 }
 
@@ -324,9 +325,9 @@ img {
 }
 
 .container {
-  max-width: 1240px;
-  padding-left: 20px;
-  padding-right: 20px;
+  max-width: 1220px;
+  padding-left: 16px;
+  padding-right: 16px;
   margin: 0 auto;
 }
 
