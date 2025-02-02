@@ -1,84 +1,116 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
-      rel="stylesheet"
-    />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
-      rel="stylesheet"
-    />
-    <link rel="stylesheet" href="./css/main.css" />
-  </head>
-  <body>
-    <header class="site-header">
-      <div class="container">
-        <div class="site-header__inner">
-          <!-- Header  -->
-           
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Document</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+    rel="stylesheet" />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+    rel="stylesheet" />
+  <link rel="stylesheet" href="./css/main.css" />
+</head>
+
+<body>
+  <header class="site-header">
+    <div class="container">
+      <div class="site-header__inner">
+        <a href="#" class="site-header__inner-logo-link">
+          <img src="./images/Logo.svg" alt="logo image" class="site-header__inner-logo-img">
+        </a>
+        <div class="site-header__inner-box">
+          <nav class="site-header__nav">
+            <ul class="site-header__inner-list">
+              <li class="site-header__inner-item">
+                <a href="#" class="site-header__inner-item-link">Demos</a>
+              </li>
+              <li class="site-header__inner-item">
+                <a href="#" class="site-header__inner-item-link">Features</a>
+              </li>
+              <li class="site-header__inner-item">
+                <a href="#" class="site-header__inner-item-link">Pricing</a>
+              </li>
+              <li class="site-header__inner-item">
+                <a href="#" class="site-header__inner-item-link">Contact</a>
+              </li>
+            </ul>
+            <ul class="site-header__inner-auth">
+              <li class="site-header__inner-auth-item">
+                <a href="#" class="site-header__inner-auth-item-link-login">Login</a>
+              </li>
+              <li class="site-header__inner-auth-item">
+                <a href="#" class="site-header__inner-auth-item-link-signup">Sign up</a>
+              </li>
+            </ul>
+          </nav>
+          <button class="burger-btn">
+            <img width="30" height="30" src="./images/burger-btn.svg" alt="This is btn help us make responsive design">
+          </button>
         </div>
       </div>
-    </header>
-    <main>
-      <section class="features">
-        <div class="container">
-          <div class="features__inner"></div>
-        </div>
-      </section>
-
-      <section class="report">
-        <div class="container">
-          <div class="report__inner"></div>
-        </div>
-      </section>
-
-      <section class="tracker">
-        <div class="container">
-          <div class="tracker__inner">
-            <h2 class="tracker__title">How our Tracker work for you</h2>
-            <p class="tracker__text">
-              An enim nullam tempor sapien gravida donec enim ipsum porta justo
-              congue magna at pretium purus pretium ligula
-            </p>
-          </div>
-        </div>
-      </section>
-
-      <section class="price">
-        <div class="container">
-          <div class="price__inner"></div>
-        </div>
-      </section>
-
-      <section class="partners">
-        <div class="container">
-          <div class="partners__inner"></div>
-        </div>
-      </section>
-
-      <section class="client">
-        <div class="container">
-          <div class="client__inner"></div>
-        </div>
-      </section>
-
-      <section class="apps">
-        <div class="container">
-          <div class="apps__inner"></div>
-        </div>
-      </section>
-    </main>
-
-    <footer class="site-footer">
+    </div>
+  </header>
+  <!-- <main>
+    <section class="features">
       <div class="container">
-        <div class="site-footer__inner"></div>
+        <div class="features__inner"></div>
       </div>
-    </footer>
-  </body>
+    </section>
+
+    <section class="report">
+      <div class="container">
+        <div class="report__inner"></div>
+      </div>
+    </section>
+
+    <section class="tracker">
+      <div class="container">
+        <div class="tracker__inner">
+          <h2 class="tracker__title">How our Tracker work for you</h2>
+          <p class="tracker__text">
+            An enim nullam tempor sapien gravida donec enim ipsum porta justo
+            congue magna at pretium purus pretium ligula
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section class="price">
+      <div class="container">
+        <div class="price__inner"></div>
+      </div>
+    </section>
+
+    <section class="partners">
+      <div class="container">
+        <div class="partners__inner"></div>
+      </div>
+    </section>
+
+    <section class="client">
+      <div class="container">
+        <div class="client__inner"></div>
+      </div>
+    </section>
+
+    <section class="apps">
+      <div class="container">
+        <div class="apps__inner"></div>
+      </div>
+    </section>
+  </main> -->
+
+  <footer class="site-footer">
+    <div class="container">
+      <div class="site-footer__inner"></div>
+    </div>
+  </footer>
+  <script src="./js/script.js"></script>
+</body>
+
 </html>
