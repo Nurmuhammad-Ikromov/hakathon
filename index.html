@@ -21,11 +21,75 @@
     <header class="site-header">
       <div class="container">
         <div class="site-header__inner">
-          <!-- Header  -->
+          <a href="#" class="site-header__inner-logo-link">
+            <img
+              src="./images/Logo.svg"
+              alt="logo image"
+              class="site-header__inner-logo-img"
+            />
+          </a>
+          <nav class="site-header__nav">
+            <ul class="site-header__inner-list">
+              <li class="site-header__inner-item">
+                <a href="#demos" class="site-header__inner-item-link">Demos</a>
+              </li>
+              <li class="site-header__inner-item">
+                <a href="#features" class="site-header__inner-item-link"
+                  >Features</a
+                >
+              </li>
+              <li class="site-header__inner-item">
+                <a href="#pricing" class="site-header__inner-item-link"
+                  >Pricing</a
+                >
+              </li>
+              <li class="site-header__inner-item">
+                <a href="#contact" class="site-header__inner-item-link"
+                  >Contact</a
+                >
+              </li>
+            </ul>
+            <ul class="site-header__inner-auth">
+              <li class="site-header__inner-auth-item">
+                <a href="#" class="site-header__inner-auth-item-link-login"
+                  >Login</a
+                >
+              </li>
+              <li class="site-header__inner-auth-item">
+                <a href="#" class="site-header__inner-auth-item-link-signup"
+                  >Sign up</a
+                >
+              </li>
+            </ul>
+          </nav>
+
+          <button class="burger-btn">
+            <img
+              width="30"
+              height="30"
+              src="./images/burger-btn.svg"
+              alt="This is btn help us make responsive design"
+            />
+          </button>
         </div>
       </div>
     </header>
+
     <main>
+      <section class="hero">
+        <div class="hero-container">
+          <div class="hero__inner">
+            <h1 class="hero__inner-heading">
+              A collaborative Time Tracking that you Need
+            </h1>
+            <p class="hero__inner-text">
+              An enim nullam tempor sapien gravida donec enim ipsum porta justo
+              congue magna at pretium purus pretium ligula
+            </p>
+            <button class="hero__inner-btn">Start 14 Days Trial</button>
+          </div>
+        </div>
+      </section>
       <section class="features">
         <div class="container">
           <div class="features__inner">
@@ -79,7 +143,6 @@
         </div>
       </section>
 
-
       <section class="report">
         <div class="report__container container">
           <div class="report__inner">
@@ -102,9 +165,9 @@
                     class="report__right-list__img"
                   />
                   <div class="report__right-list__texts">
-                    <h3 class="report__right-list__title"
-                      >Automatic event tracking</h3
-                    >
+                    <h3 class="report__right-list__title">
+                      Automatic event tracking
+                    </h3>
                     <p class="report__right-list__text">
                       Time Tracking is never been easier. Just let the stopwatch
                       run
@@ -118,9 +181,9 @@
                     class="report__right-list__img"
                   />
                   <div class="report__right-list__texts">
-                    <h3 class="report__right-list__title"
-                      >Customizable dashboard</h3
-                    >
+                    <h3 class="report__right-list__title">
+                      Customizable dashboard
+                    </h3>
                     <p class="report__right-list__text">
                       Time Tracking is never been easier. Just let the stopwatch
                       run
@@ -134,9 +197,9 @@
                     class="report__right-list__img"
                   />
                   <div class="report__right-list__texts">
-                    <h3 class="report__right-list__title"
-                      >Statistics retroactively</h3
-                    >
+                    <h3 class="report__right-list__title">
+                      Statistics retroactively
+                    </h3>
                     <p class="report__right-list__text">
                       Time Tracking is never been easier. Just let the stopwatch
                       run
@@ -262,5 +325,6 @@
         <div class="site-footer__inner"></div>
       </div>
     </footer>
+    <script src="./js/script.js"></script>
   </body>
 </html>
