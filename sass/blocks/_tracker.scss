@@ -2,6 +2,8 @@
   position: relative;
   background-color: #f3fdfe;
   overflow-x: hidden;
+  padding-top: 140px;
+  padding-bottom: 138px;
 
   &::before {
     content: "";
@@ -19,7 +21,7 @@
   &::after {
     content: "";
     position: absolute;
-    top: -100px;
+    top: 40px;
     left: calc(50% + 520px);
     width: 375px;
     height: 352px;
@@ -190,10 +192,25 @@
 }
 
 @media only screen and (max-width: 440px) {
+    .tracker {
+        padding-top: 48px;
+        padding-bottom: 48px;
+
+        &::before{
+            content: "";
+            width: 103px;
+            height: 104px;
+            left: calc(100% - 80px);
+            top: -40px;
+            z-index: 100;
+         
+        }
+    }
   .tracker__title {
     font-size: 24px;
     line-height: 36px;
     margin-bottom: 36px;
+    max-width: 252px;
   }
 
   .tracker__text {
@@ -202,6 +219,11 @@
 
   .tracker__main {
     flex-direction: column;
+    gap: 48px;
+  }
+
+  .tracker__list{
+    margin-right: 0;
   }
 
   .item__img {
@@ -218,12 +240,15 @@
     font-weight: 400;
     line-height: 25.2px;
   }
+  .tracker__statistics{
+    gap: 15px;
+  }
 
   .tracker__statistics-item {
     width: 100%;
     object-fit: contain;
   }
-//   .tracker__statistics-item:nth-child(3) {
-//     max-width: 100%;
-//   }
+  .tracker__statistics-item:nth-child(3) {
+    max-width: 100%;
+  }
 }

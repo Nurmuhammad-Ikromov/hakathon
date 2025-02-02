@@ -1,67 +1,112 @@
+.report {
+    padding-bottom: 189px;
+
+}
+
+.report__container {
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
 .report__inner {
-    display: flex;
-    align-items: center;
-    gap: 3px;
+  display: flex;
+  align-items: center;
+  gap: 3px;
 }
 
 .report__img {
-    width: 100%;
-    max-width: 720px;
-    height: auto;
+  width: 100%;
+  max-width: 720px;
+  height: auto;
 }
 
 .report__title {
-    font-weight: 600;
-    font-size: 48px;
-    line-height: 142%;
-    color: #18063c;
+  font-weight: 600;
+  font-size: 48px;
+  line-height: 142%;
+  color: #18063c;
 }
 
 .report__text {
-    font-family: "Inter";
-    opacity: 0.8;
-    margin-top: 20px;
-    margin-bottom: 48px;
-    font-weight: 400;
-    font-size: 18px;
-    line-height: 200%;
-    color: #404040;
+  font-family: "Inter";
+  opacity: 0.8;
+  margin-top: 20px;
+  margin-bottom: 48px;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 200%;
+  color: #404040;
 }
 
 .report__right-list {
-    list-style-type: none;
-    display: flex;
-    flex-direction: column;
-    gap: 48px;
+  list-style-type: none;
+  display: flex;
+  flex-direction: column;
+  gap: 48px;
 }
 
 .report__right-item {
-    display: flex;
-    gap: 24px;
+  display: flex;
+  gap: 24px;
 }
 
 .report__right-list__img {
-    width: 88px;
-    height: 88px;
+  width: 88px;
+  height: 88px;
 }
 
 .report__right-list__title {
-    font-size: 28px;
-    line-height: 129%;
-    color: #404040;
+  font-size: 28px;
+  line-height: 129%;
+  color: #404040;
 }
 
 .report__right-list__text {
-    font-family: "Inter";
-    font-weight: 400;
-    font-size: 18px;
-    line-height: 200%;
-    opacity: 0.8;
-    color: #404040;
+  font-family: "Inter";
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 200%;
+  opacity: 0.8;
+  color: #404040;
 }
 
 @media only screen and (max-width: 1060px) {
-    .report__inner {
-        flex-direction: column  ;
+  .report__inner {
+    flex-direction: column;
+  }
+}
+
+@media only screen and (max-width: 440px) {
+    .report {
+        padding-bottom: 89px;
     }
+  .report__title {
+    font-size: 24px;
+    line-height: 36px;
+  }
+
+  .report__text {
+    margin-top: 16px;
+  }
+  .report__right-item {
+    gap: 18px;
+  }
+
+  .report__right-list__title {
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 21.6px;
+    margin-bottom: 10px;
+  }
+
+  .report__right-list__text {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 25.2px;
+  }
+
+  .report__right-list__img {
+    width: 56px;
+    height: 56px;
+  }
 }
