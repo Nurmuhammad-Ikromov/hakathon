@@ -1,8 +1,8 @@
-.apps {
+.app {
   padding-top: 130px;
   background-color: #fff8f2;
 }
-.apps__inner {
+.app__inner {
   display: flex;
   align-items: center;
   gap: 100px;
@@ -75,7 +75,7 @@
   .app__inner-content {
     max-width: 100%;
   }
-  .apps {
+  .app {
     padding-top: 80px;
     padding-bottom: 80px;
   }
@@ -99,7 +99,7 @@
     align-items: flex-start;
     flex-direction: column;
   }
-  .apps {
+  .app {
     padding-top: 48px;
     padding-bottom: 48px;
   }
