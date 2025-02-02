@@ -1,0 +1,105 @@
+.apps {
+  padding-top: 130px;
+  background-color: #fff8f2;
+}
+.apps__inner {
+  display: flex;
+  align-items: center;
+  gap: 100px;
+}
+.app__inner-content {
+  max-width: 530px;
+}
+.app__inner-content-box-heading {
+  font-weight: 600;
+  font-size: 48px;
+  line-height: 146%;
+  color: #18063c;
+}
+.app__inner-content-box-text {
+  opacity: 0.8;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 180%;
+  color: #404040;
+  margin-top: 24px;
+  margin-bottom: 48px;
+}
+.app__inner-content-btn-box {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+.app__inner-content-btn {
+  display: flex;
+  align-items: center;
+  border: none;
+  border-radius: 40px;
+  background-color: #fff;
+  border: 1px solid #ff553e;
+  padding: 24px 40px;
+  gap: 10px;
+}
+.app__inner-content-btn > svg {
+  color: #ff553e;
+}
+.app__inner-content-btn:hover {
+  background-color: #ff553e;
+  border: 1px solid #ff553e;
+}
+.app__inner-content-btn:hover > svg {
+  color: #fff;
+}
+.app__inner-content-btn-content {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.app__inner-content-btn-content-text {
+  font-family: "Inter";
+  color: #ff553e;
+}
+.app__inner-content-btn-content-heading {
+  color: #ff553e;
+  font-size: 18px;
+  font-weight: 500;
+}
+.app__inner-content-btn:hover > .app__inner-content-btn-content > p {
+  color: #fff;
+}
+@media only screen and (max-width: 1015px) {
+  .app__inner-mobile-img {
+    display: none;
+  }
+  .app__inner-content {
+    max-width: 100%;
+  }
+  .apps {
+    padding-top: 80px;
+    padding-bottom: 80px;
+  }
+}
+@media only screen and (max-width: 540px) {
+  .app__inner-content-box-heading {
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 140%;
+    text-transform: capitalize;
+    color: #332c5c;
+  }
+  .app__inner-content-box-text {
+    font-family: "Inter";
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 187%;
+    color: #404040;
+  }
+  .app__inner-content-btn-box {
+    align-items: flex-start;
+    flex-direction: column;
+  }
+  .apps {
+    padding-top: 48px;
+    padding-bottom: 48px;
+  }
+}

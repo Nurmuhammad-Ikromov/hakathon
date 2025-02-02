@@ -1,0 +1,132 @@
+.partner {
+  background-color: var(--blue-op-10);
+}
+.partner-wrapper {
+  display: flex;
+  max-width: 1520px;
+  align-items: center;
+  justify-content: end;
+  min-height: 851px;
+  padding-right: 200px;
+  gap: 100px;
+}
+.partner-tools {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-column-gap: 56px;
+}
+
+.parner-tools-left {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  gap: 56px;
+}
+.parner-tools-right {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding-top: 76px;
+  gap: 56px;
+}
+.partner-tools img {
+  height: auto;
+}
+
+.partner-tools__icon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  border-radius: 40px;
+}
+
+.partner-tools__icon_first {
+  width: 240px;
+  height: 152px;
+  border-radius: 40px;
+  opacity: 0px;
+
+  background: #f353251a;
+}
+
+.partner-tools__icon_second {
+  width: 358px;
+  height: 239px;
+
+  background: #ffba001a;
+}
+
+.partner-tools__icon_third {
+  width: 240px;
+  height: 152px;
+
+  background: #1c60bf1a;
+}
+
+.partner-tools__icon_fourth {
+  width: 315px;
+  height: 204px;
+
+  background: #33d6641a;
+}
+
+.partner-tools__icon_fivth {
+  width: 385px;
+  height: 243px;
+
+  background: #4285f41a;
+}
+
+.partner-content {
+  max-width: 525px;
+}
+
+.content__btn {
+  font-family: "Poppins", serif;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 28px;
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+  padding: 24px 40px 24px 40px;
+  border-radius: 40px;
+  background: none;
+}
+
+
+
+@media only screen and (max-width: 1110px) {
+    .partner-wrapper {
+      flex-direction: column-reverse;
+      align-items: flex-start;
+      gap: 20px;
+      height: auto;
+    }
+    .partner-content {
+      width: auto;
+    }
+    .parner-tools-right {
+      padding-top: unset;
+    }
+    .partner-tools__icon_third {
+      display: none;
+    }
+    .parner-tools-left,
+    .parner-tools-right {
+      display: grid;
+      grid-template-rows: 120px 120px;
+      grid-template-columns: 120px;
+    }
+    .partner-tools__icon img {
+      width: 66px;
+      height: 66px;
+    }
+    .partner-tools__icon {
+      width: 100%;
+      height: 100%;
+    }
+  }
+  
