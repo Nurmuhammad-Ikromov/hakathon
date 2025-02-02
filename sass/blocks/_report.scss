@@ -1,6 +1,5 @@
 .report {
-    padding-bottom: 189px;
-
+  padding-bottom: 189px;
 }
 
 .report__container {
@@ -76,20 +75,15 @@
   }
 }
 
-@media only screen and (max-width: 440px) {
-    .report {
-        padding-bottom: 89px;
-    }
+@media only screen and (max-width: 760px) {
   .report__title {
-    font-size: 24px;
-    line-height: 36px;
+    font-size: 32px;
+    line-height: 48px;
   }
 
   .report__text {
+    font-size: 16px;
     margin-top: 16px;
-  }
-  .report__right-item {
-    gap: 18px;
   }
 
   .report__right-list__title {
@@ -103,6 +97,22 @@
     font-size: 14px;
     font-weight: 400;
     line-height: 25.2px;
+  }
+}
+@media only screen and (max-width: 500px) {
+  .report {
+    padding-bottom: 89px;
+  }
+  .report__title {
+    font-size: 24px;
+    line-height: 36px;
+  }
+
+  .report__text {
+    margin-top: 16px;
+  }
+  .report__right-item {
+    gap: 18px;
   }
 
   .report__right-list__img {

@@ -191,6 +191,23 @@
   }
 }
 
+@media only screen and (max-width: 760px){
+    .tracker__main {
+        flex-direction: column;
+        gap: 48px;
+      }
+    
+      .tracker__list{
+        margin-right: 0;
+      }
+
+      .item__img {
+        width: 70px;
+        height: 70px;
+      }
+    
+
+}
 @media only screen and (max-width: 440px) {
     .tracker {
         padding-top: 48px;
@@ -217,15 +234,7 @@
     display: none;
   }
 
-  .tracker__main {
-    flex-direction: column;
-    gap: 48px;
-  }
-
-  .tracker__list{
-    margin-right: 0;
-  }
-
+ 
   .item__img {
     width: 56px;
     height: 56px;
