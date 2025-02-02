@@ -1320,7 +1320,7 @@ img {
   text-align: center;
 }
 
-.card button {
+.price-btn-trial {
   width: 240px;
   height: 76px;
   padding: 10px;
@@ -1351,6 +1351,10 @@ img {
   justify-content: center;
   flex-direction: column;
   gap: 64px;
+}
+
+.price-btn-box {
+  text-align: center;
 }
 
 @media (max-width: 1085px) {
@@ -1400,7 +1404,9 @@ img {
   .card .price {
     font-size: 36px;
   }
-  .card button {
+  .price-btn {
+    display: block;
+    margin: 0 auto;
     width: 180px;
     height: 50px;
     font-size: 14px;
@@ -1438,7 +1444,9 @@ img {
   .card .price {
     font-size: 28px;
   }
-  .card button {
+  .price-btn-trial {
+    display: block;
+    margin: 0 auto;
     width: 160px;
     height: 40px;
     font-size: 12px;
@@ -1760,6 +1768,7 @@ img {
 .app__inner-content-btn-content-text {
   font-family: "Inter";
   color: #ff553e;
+  max-width: 100px;
 }
 
 .app__inner-content-btn-content-heading {
